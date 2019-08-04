@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Jul 23 20:10:15 2019
+# Process ID: 5436
+# Log file: C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/pa.fromHdl.tcl
+# create_project -name Spartan6LEDTest -dir "C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3" -part xa6slx4csg225-3
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3/Spartan6LEDTest.ppr
+     C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3/Spartan6LEDTest.data
+
+    while executing
+"create_project -name Spartan6LEDTest -dir "C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/planAhead_run_3" -part xa6slx4csg225-3"
+    (file "C:/Users/ss444/Documents/FPGA/Spartan6LEDTest/pa.fromHdl.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jul 24 17:25:32 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead
