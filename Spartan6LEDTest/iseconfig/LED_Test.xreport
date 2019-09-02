@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-08-04T12:09:21</DateModified>
+  <DateModified>2019-09-02T12:41:51</DateModified>
   <ModuleName>LED_Test</ModuleName>
   <SummaryTimeStamp>2019-07-24T16:26:01</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Blaine/Desktop/Spartan6LEDTest/iseconfig/LED_Test.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Blaine/Desktop/Spartan6LEDTest\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/iseconfig/LED_Test.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest\</ImplementationReportsDirectory>
   <DateInitialized>2019-07-22T21:57:00</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

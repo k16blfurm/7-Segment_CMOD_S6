@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\Blaine\Desktop\Spartan6LEDTest\LED_Test.ncd
-OUTFILE=C:\Users\Blaine\Desktop\Spartan6LEDTest\LED_Test.bit
+INFILE=C:\Users\Blaine\Documents\GitHub\7-Segment_CMOD_S6\Spartan6LEDTest\LED_Test.ncd
+OUTFILE=C:\Users\Blaine\Documents\GitHub\7-Segment_CMOD_S6\Spartan6LEDTest\LED_Test.bit
 FAMILY=Spartan6
 PART=xc6slx4-3cpg196
-WORKINGDIR=C:\Users\Blaine\Desktop\Spartan6LEDTest
+WORKINGDIR=C:\Users\Blaine\Documents\GitHub\7-Segment_CMOD_S6\Spartan6LEDTest
 LICENSE=WebPack
 USER_INFO=211731344_0_0_230

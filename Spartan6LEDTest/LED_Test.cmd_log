@@ -162,3 +162,22 @@ xst -intstyle ise -ifn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.xst" -o
 xst -intstyle ise -ifn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.syr" 
 xst -intstyle ise -ifn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.syr" 
 xst -intstyle ise -ifn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_Test.ucf -p xc6slx4-cpg196-3 LED_Test.ngc LED_Test.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_Test_map.ncd LED_Test.ngd LED_Test.pcf 
+par -w -intstyle ise -ol high -mt off LED_Test_map.ncd LED_Test.ncd LED_Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_Test.twx LED_Test.ncd -o LED_Test.twr LED_Test.pcf -ucf LED_Test.ucf 
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_Test.ucf -p xc6slx4-cpg196-3 LED_Test.ngc LED_Test.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_Test_map.ncd LED_Test.ngd LED_Test.pcf 
+par -w -intstyle ise -ol high -mt off LED_Test_map.ncd LED_Test.ncd LED_Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_Test.twx LED_Test.ncd -o LED_Test.twr LED_Test.pcf -ucf LED_Test.ucf 
+bitgen -intstyle ise -f LED_Test.ut LED_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.xst" -ofn "C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LED_Test.ucf -p xc6slx4-cpg196-3 LED_Test.ngc LED_Test.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LED_Test_map.ncd LED_Test.ngd LED_Test.pcf 
+par -w -intstyle ise -ol high -mt off LED_Test_map.ncd LED_Test.ncd LED_Test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LED_Test.twx LED_Test.ncd -o LED_Test.twr LED_Test.pcf -ucf LED_Test.ucf 
+bitgen -intstyle ise -f LED_Test.ut LED_Test.ncd 

@@ -27,8 +27,8 @@ entity LED_Test is
 port(
 	--PORTA(0): out std_logic;
 	scaler: in std_logic;
-	PORTA: out STD_LOGIC_VECTOR (6 downto 0);
-	PWR: out STD_LOGIC
+	PORTA: out STD_LOGIC_VECTOR (6 downto 0)
+	--PWR: out STD_LOGIC
 	);
 end LED_Test;
 	
@@ -40,27 +40,11 @@ architecture Behavioral of LED_Test is
 	-- this is for the clock signal (slower clock)
 	--signal scaler: STD_LOGIC;
 begin
-	-- This is also the function to slow the clock speed to 1 mHz?
-	-- make sure that process is inside of begin while programming...
-	--count = '0000';
-	--PORTA <= scaler;
-	--countClock: process(CLK, scaler)
-   --begin
-   --     if rising_edge(CLK) then
-	--			if counter < "1111010000100100000000" then
-	--				counter <= counter + 1;
-	--			else 
-   --             -- Iterate
-   --              scaler <= not scaler;
-   --              counter <= (others => '0');
-   --         end if;
-   --    end if;
-   -- end process countClock;
-	-- using the newClock we just created, we can add the clock to our function
+	
 process(scaler, count)
 	begin
 	
-	PWR <= "1";
+	--PWR <= "1";
 	if rising_edge(scaler) then
 		case count is
 		--eq <= p0 or p1 ;

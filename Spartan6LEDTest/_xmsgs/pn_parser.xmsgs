@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Blaine/Desktop/Spartan6LEDTest/LED_Test.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Blaine/Documents/GitHub/7-Segment_CMOD_S6/Spartan6LEDTest/LED_Test.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

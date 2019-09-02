@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="837" delta="new" >"C:\Users\Blaine\Desktop\Spartan6LEDTest\LED_Test.vhd" Line 63: Type <arg fmt="%s" index="1">std_logic</arg> does not match with a string literal
-</msg>
-
-<msg type="error" file="HDLCompiler" num="854" delta="new" >"C:\Users\Blaine\Desktop\Spartan6LEDTest\LED_Test.vhd" Line 35: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 
